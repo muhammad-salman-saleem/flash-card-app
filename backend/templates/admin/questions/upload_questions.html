@@ -1,0 +1,12 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<form id="upload-csv-form" action="{% url 'admin:upload_questions_csv' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p>{{ form.non_field_errors }}</p>
+    <p>{{ submit_csv_form.as_p }}</p>
+    <p>{{ submit_csv_form.csv_file.errors }}</p>
+    <p><input type="submit" value="Upload" />
+        <input type="reset" value="Reset">
+    </p>
+</form>
+{% endblock %}

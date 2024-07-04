@@ -1,0 +1,21 @@
+{
+    "color-primary-500": "#F78171",
+    "color-basic-transparent-300": "#ffc2ba",
+    "color-basic-transparent-600": "#ad837d",
+    "color-primary-focus": "#D45752",
+    "color-primary-active": "#D45752",
+    "color-basic-focus": "#FAFAFA",
+    "color-basic-active": "#FAFAFA",
+    "color-basic-focus-border": "#D45752",
+    "color-basic-active-border": "#D45752",
+    "color-basic-500": "#FFC61C",
+    "text-basic-color": "#1D2B48",
+    "text-alternate-color": "#1D2B48",
+    "text-hint-color": "#828282",
+    "header-background-color": "#F78171",
+    "background-basic-color-1": "#F8F8F8",
+    "background-basic-color-2": "#F4EFED",
+    "background-basic-color-3": "#F9E8E3",
+    "color-success-500": "#3FBDA6",
+    "color-danger-500": "#E45E4C"
+}

@@ -1,0 +1,10 @@
+{% extends "account/email/base_message.txt" %}
+{% load account %}
+{% load i18n %}
+
+{% block content %}{% autoescape off %}{% user_display user as user_display %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}You’re receiving this notification because an account has been registered under this email address at the Straight A Nursing app.
+
+To confirm this is correct, go to {{ activate_url }}.
+Within the app you can easily manage your account by clicking on the “View Your Profile” link in the side menu. The side menu is also where you can upgrade your account, view the FAQ, and explore other great resources for nursing school success.
+If you have any questions not answered in the FAQ, please reach out to support@straightanursingstudent.com so we can help!
+Cheering for you always,{% endblocktrans %}{% endautoescape %}{% endblock %}

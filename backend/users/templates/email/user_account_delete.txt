@@ -1,0 +1,7 @@
+Hi {{name}},
+
+This email confirms you have canceled your account with the Straight A Nursing App. If you were a premium member, you will not be charged again and you can continue to utilize the premium flashcards until the end of your billing period and your profile will be removed at that time. If you would like to utilize the free version in the future, simply sign up again…we’d love to have you!
+If you were using the free version of the app, your profile has been removed.
+Wishing you all the best on your journey to become a nurse!
+
+Straight A Nursing team

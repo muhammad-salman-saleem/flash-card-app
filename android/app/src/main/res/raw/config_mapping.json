@@ -1,0 +1,137 @@
+{
+    "strict": {
+        "text-font-family": "Gilroy-Regular",
+        "text-heading-1-font-family": "Gilroy-Medium",
+        "text-heading-2-font-family": "Gilroy-Medium",
+        "text-heading-2-font-size": 32,
+        "text-heading-2-font-weight": "600",
+        "text-heading-3-font-family": "Gilroy-Medium",
+        "text-heading-4-font-family": "Gilroy-Medium",
+        "text-heading-5-font-family": "Gilroy-Medium",
+        "text-heading-5-font-size": 24,
+        "text-heading-5-line-height": 24,
+        "text-heading-6-font-family": "Gilroy-Medium",
+        "text-heading-6-font-weight": "500",
+        "text-subtitle-1-font-family": "Gilroy-Medium",
+        "text-subtitle-1-font-size": 16,
+        "text-subtitle-1-line-height": 24,
+        "text-subtitle-2-font-family": "Gilroy-Medium",
+        "text-subtitle-2-font-size": 14,
+        "text-subtitle-2-font-weight": "400",
+        "text-paragraph-1-font-family": "Gilroy-Regular",
+        "text-paragraph-1-font-size": 16,
+        "text-paragraph-2-font-family": "Gilroy-Regular",
+        "text-caption-1-font-family": "Gilroy-Regular",
+        "text-caption-2-font-family": "Gilroy-Regular",
+        "text-label-font-family": "Gilroy-Medium",
+        "size-medium": 50,
+        "border-radius": 12
+    },
+    "components": {
+        "Button": {
+            "appearances": {
+                "filled": {
+                    "mapping": {},
+                    "variantGroups": {
+                        "status": {
+                            "basic": {
+                                "backgroundColor": "#ffff",
+                                "textColor": "color-primary-500",
+                                "borderColor": "color-primary-500"
+                            },
+                            "primary": {},
+                            "success": {},
+                            "info": {},
+                            "warning": {},
+                            "danger": {},
+                            "control": {}
+                        },
+                        "size": {
+                            "medium": {
+                                "minHeight": "size-medium",
+                                "borderRadius": "border-radius",
+                                "textFontSize": 16
+                            },
+                            "giant": {
+                                "minHeight": "size-medium",
+                                "borderRadius": "border-radius",
+                                "textFontSize": 22
+                            }
+                        }
+                    }
+                },
+                "outline": {
+                    "mapping": {},
+                    "variantGroups": {
+                        "status": {
+                            "basic": {
+                                "backgroundColor": "#ffff",
+                                "textColor": "#F78171",
+                                "borderColor": "#F78171"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Input": {
+            "meta": {},
+            "appearances": {
+                "default": {
+                    "mapping": {},
+                    "variantGroups": {
+                        "status": {
+                            "basic": {
+                                "backgroundColor": "#FAFAFA",
+                                "borderColor": "#E4E4E4"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Text": {
+            "meta": {
+                "scope": "all",
+                "parameters": {
+                    "lineHeight": {
+                        "type": "number"
+                    }
+                }
+            },
+            "appearances": {
+                "default": {
+                    "mapping": {},
+                    "variantGroups": {
+                        "category": {
+                            "s1": {
+                                "lineHeight": "text-subtitle-1-line-height"
+                            },
+                            "h5": {
+                                "lineHeight": "text-heading-5-line-height"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Toggle": {
+            "appearances": {
+                "default": {
+                    "mapping": {},
+                    "variantGroups": {
+                        "status": {
+                            "success": {
+                                "backgroundColor": "#636363",
+                                "borderColor": "#636363",
+                                "borderWidth": 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//

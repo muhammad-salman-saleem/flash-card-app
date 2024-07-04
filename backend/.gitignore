@@ -1,0 +1,10 @@
+*.pyc
+env/
+.terraform
+.env
+staticfiles/
+postgres-data/db.sql*
+db.sql*
+.vscode
+add
+media

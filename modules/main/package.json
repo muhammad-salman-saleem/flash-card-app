@@ -1,0 +1,11 @@
+{
+  "name": "@modules/main",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "x-dependencies": {},
+  "author": "Crowdbotics",
+  "license": "ISC",
+  "dependencies": {}
+}
